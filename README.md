@@ -1,10 +1,10 @@
   
 
-# **ETL proces datasetu Platypus_Movielens**
+# **ETL proces datasetu Movielens**
 
   
 
-Tento dokument popisuje implementáciu ETL procesu v Snowflake pre analýzu dát z **Platypus_Movielens** datasetu. Projekt sa zameriava na analýzu používateľských hodnotení filmov a ich preferencií, vrátane analýzy demografických údajov používateľov. Výsledný dátový model umožňuje multidimenzionálnu analýzu a vizualizáciu kľúčových metrik.
+Tento dokument popisuje implementáciu ETL procesu v Snowflake pre analýzu dát z **Movielens** datasetu. Projekt sa zameriava na analýzu používateľských hodnotení filmov a ich preferencií, vrátane analýzy demografických údajov používateľov. Výsledný dátový model umožňuje multidimenzionálnu analýzu a vizualizáciu kľúčových metrik.
 
   
 
@@ -16,8 +16,7 @@ Cieľom tohto projektu je analyzovať dáta o filmoch, používateľoch a ich ho
 
   
 
-Zdrojové dáta pochádzajú zo systému, ktorý poskytuje údaje v CSV formáte, rozdelené do niekoľkých tabuliek:
-
+Zdrojové dáta pochádzajú z Grouplens datasetu dostupného [tu](https://grouplens.org/datasets/movielens/). Dataset obsahuje sedem hlavných tabuliek:
 -  `movies`
 
 -  `ratings`
